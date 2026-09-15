@@ -16,15 +16,16 @@
     --gold:#B8863B;
     --gold-light:#C9A24B;
     --gold-dark:#8B6914;
-    --text:#4A2A1E;
-    --text-soft:#7A5C42;
+    --text:#2E160C;
+    --text-soft:#5A4230;
+  
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   html,body{height:100%;}
   body{
     font-family:'Cormorant Garamond',serif;
     background:var(--beige);
-    color:var(--text);
+    color:var(--);
     overflow-x:hidden;
   }
   section{
@@ -35,7 +36,7 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    text-align:center;
+    -align:center;
   }
 
   .bg-glow{
@@ -114,13 +115,13 @@
     transform:translate(-50%,-96px) scale(1.05);
     transition:opacity 0.5s ease 0.35s, transform 0.95s cubic-bezier(.2,.8,.2,1) 0.35s;
   }
-  .tap-text{
+  .tap-{
     font-family:'Cinzel',serif;letter-spacing:0.12em;font-size:13px;color:var(--maroon);
     animation:pulse 1.8s ease-in-out infinite;
   }
   @keyframes pulse{0%,100%{opacity:0.55;}50%{opacity:1;}}
   .couple-names-mini{font-family:'Cinzel Decorative',serif;font-size:26px;color:var(--maroon);margin-bottom:6px;}
-  .date-mini{font-size:15px;color:var(--text-soft);letter-spacing:0.05em;}
+  .date-mini{font-size:15px;color:var(---soft);letter-spacing:0.05em;}
 
   /* ---------- HERO / PHOTO ---------- */
   #hero{gap:4px;}
@@ -135,14 +136,14 @@
   }
   .frame img{width:100%;height:100%;object-fit:cover;display:block;}
   .hero-names{font-family:'Cinzel Decorative',serif;font-size:clamp(30px,8vw,44px);color:var(--maroon);line-height:1.2;}
-  .hero-amp{font-style:italic;color:var(--text-soft);font-size:0.6em;margin:0 10px;}
-  .hero-date{font-family:'Cinzel',serif;letter-spacing:0.1em;font-size:16px;color:var(--text);margin-top:10px;}
-  .hero-sub{color:var(--text-soft);font-size:14px;margin-top:2px;}
+  .hero-amp{font-style:italic;color:var(---soft);font-size:0.6em;margin:0 10px;}
+  .hero-date{font-family:'Cinzel',serif;letter-spacing:0.1em;font-size:16px;color:var(--);margin-top:10px;}
+  .hero-sub{color:var(---soft);font-size:14px;margin-top:2px;}
   .scroll-hint{position:absolute;bottom:26px;font-size:12px;letter-spacing:0.14em;color:var(--maroon);opacity:0.6;}
 
   /* ---------- INVOCATION / FAMILY ---------- */
-  .invite-line{font-size:17px;color:var(--text-soft);line-height:1.7;max-width:440px;margin:6px auto;}
-  .families{font-size:16px;line-height:1.9;color:var(--text-soft);max-width:440px;margin:18px auto 0;}
+  .invite-line{font-size:17px;color:var(---soft);line-height:1.7;max-width:440px;margin:6px auto;}
+  .families{font-size:16px;line-height:1.9;color:var(---soft);max-width:440px;margin:18px auto 0;}
   .families b{color:var(--maroon);font-weight:600;font-size:19px;}
 
   /* ---------- EVENTS ---------- */
@@ -151,24 +152,24 @@
     border:1px solid var(--gold);
     padding:18px 20px;margin-bottom:14px;
     background:var(--beige-pale);
-    text-align:left;
+    -align:left;
     display:flex;justify-content:space-between;align-items:center;gap:14px;
   }
   .event-name{font-family:'Cinzel',serif;font-size:17px;color:var(--maroon);letter-spacing:0.03em;}
-  .event-info{font-size:14px;color:var(--text-soft);text-align:right;line-height:1.5;}
+  .event-info{font-size:14px;color:var(---soft);-align:right;line-height:1.5;}
 
   /* ---------- COUNTDOWN ---------- */
   .countdown-row{display:flex;gap:14px;justify-content:center;margin-top:26px;flex-wrap:wrap;}
   .cd-box{width:74px;padding:14px 0;border:1px solid var(--gold);background:var(--beige-pale);}
   .cd-num{font-family:'Cinzel',serif;font-size:26px;color:var(--maroon);}
-  .cd-label{font-size:11px;letter-spacing:0.1em;color:var(--text-soft);margin-top:4px;}
+  .cd-label{font-size:11px;letter-spacing:0.1em;color:var(---soft);margin-top:4px;}
 
   /* ---------- VENUE ---------- */
   .venue-name{font-family:'Cinzel',serif;font-size:20px;color:var(--maroon);margin-top:6px;}
-  .venue-addr{font-size:15px;color:var(--text-soft);margin-top:4px;}
+  .venue-addr{font-size:15px;color:var(---soft);margin-top:4px;}
   .map-link{
     display:inline-block;margin-top:20px;padding:12px 26px;
-    border:1px solid var(--gold);color:var(--maroon);text-decoration:none;
+    border:1px solid var(--gold);color:var(--maroon);-decoration:none;
     font-family:'Cinzel',serif;font-size:12px;letter-spacing:0.1em;
     background:var(--beige-pale);
   }
@@ -177,7 +178,7 @@
   #footer{min-height:40vh;}
   .footer-names{font-family:'Cinzel Decorative',serif;font-size:24px;color:var(--maroon);}
   .hashtag{margin-top:10px;color:var(--gold-dark);letter-spacing:0.05em;font-size:14px;}
-  .footer-note{margin-top:18px;font-size:13px;color:var(--text-soft);opacity:0.8;}
+  .footer-note{margin-top:18px;font-size:13px;color:var(---soft);opacity:0.8;}
 </style>
 </head>
 <body>
